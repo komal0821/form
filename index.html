@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRM Form</title>
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+
+</head>
+<body>
+
+    <div class="logo-container">
+        
+        <img src="img/logo.png" class="logo" alt="" />
+    </div>
+    <h1 class="heading">SRM UNIVERSITY</h1>
+
+     <div class="form-style">
+        <form>
+            <fieldset>
+                <legend> Student Information</legend>
+                <input type="text" name="field1" placeholder="Your Name*">
+                <hr>
+                <legend> Department</legend>
+                <input type="text" name="field2" placeholder="Department*">
+                <hr>
+                <legend> Year & Sec</legend>
+                <input type="text" name="field3" placeholder="Year & Sec*">
+                <hr>
+                <legend> Email</legend>
+                <input type="email" name="field5" placeholder="Your Email *">
+                <hr>
+                <label for="hobbies">Hobbies:</label>
+                <select id="hobbies">
+                <option value="">Please choose an option--</option>
+                <option value="reading">Reading</option>
+                    <option value="travelling">Travelling</option>
+                    <option value="cooking">Cooking</option>
+                    <option value="blogging">Blogging</option>
+                    <option value="gaming">Gaming</option>
+                    <option value="gardening">Gardening</option>
+                    <option value="other_hobbies">Other</option>
+                </select>
+
+                <hr>
+                <label for="language">Which coding language do you prefer:</label>
+                <select id="language">
+                <option value="">Please choose an option--</option>
+                <option value="c">C</option>
+                    <option value="cpp">C++</option>
+                    <option value="java">Java</option>
+                    <option value="python">Python</option>
+                </select>
+
+                <hr>
+                <legend> Achievments ⭐⭐⭐:</legend>
+                <textarea rows="10" cols="80" name="achievments" form="usrform">Your Achievments...</textarea>
+
+
+                <hr>
+                <label for="certificates">Upload Your Certificates:</label>
+                <div class="upload-btn-wrapper">
+                    <button class="btn">Upload a file</button>
+                    <input type="file" name="myfile" />
+                  </div>
+
+                  <hr>
+                  <legend>Additional Info about you:</legend>
+                  <textarea rows="10" cols="80" name="info" placeholder="About Yourself"></textarea>
+
+            </fieldset>
+
+            <input type="submit" value="submit" />
+        </form> 
+     </div>
+</body>
+</html>
